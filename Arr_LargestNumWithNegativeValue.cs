@@ -1,3 +1,5 @@
+//GFG - https://www.geeksforgeeks.org/largest-number-having-both-positive-and-negative-values-present-in-the-array/
+
 class HelloWorld {
     static void Main() {
         System.Console.WriteLine(largestK(new int[]{9,2,3,4,-9,-4,-5,-4}));   //9
