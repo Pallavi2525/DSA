@@ -1,3 +1,5 @@
+//LeetCode - 287. Find the Duplicate Number
+
 public class Solution {
     public int FindDuplicate(int[] nums) {
         int slow = nums[0];
