@@ -1,3 +1,5 @@
+//LeetCode - 26. Remove Duplicates from Sorted Array
+
 public class Solution {
     public int RemoveDuplicates(int[] nums) {
         int count = 0;
