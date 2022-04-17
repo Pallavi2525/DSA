@@ -1,13 +1,14 @@
+//LeetCode - 1822. Sign of the Product of an Array
+
 public class Solution {
     public int ArraySign(int[] nums) {
-        BigInteger product = 1;
-        for(int i = 0; i < nums.Length; i++)
-            product = product * nums[i];
-        if(product > 0)
-            return 1;
-        else if(product < 0)
-            return -1;
-        else
-            return 0;
+        int sign = 1;
+        foreach(int num in nums){
+	        if(num < 0)
+  	            sign = -sign;
+            else if(num == 0)
+  	        sign = 0;
+        }
+        return sign;
     }
 }
